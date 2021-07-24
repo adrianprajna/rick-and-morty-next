@@ -5,7 +5,7 @@ import CharacterDetailModel from "../models/character-detail.model";
 import { ModalProvider } from "../provider/modal.provider";
 import { charactersData, initializeData } from "../utils/local-storage";
 
-export default function favorite() {
+export default function Favorite() {
   useEffect(() => {
     initializeData();
   }, []);
